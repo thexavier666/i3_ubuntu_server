@@ -61,11 +61,8 @@ Note : In case you get a dependancy error, install the required packages and rep
 
 ```
 #!/bin/sh
-
 # /etc/X11/xinit/xinitrc
-
 # global xinitrc file, used by all X sessions started by xinit (startx)
-
 exec /usr/bin/i3
 ```
 
@@ -95,7 +92,6 @@ $ sudo apt install xrdp
 
     ```
     #!/bin/sh
-
     exec /usr/bin/i3
     ```
 3. Restart `xrdp` service
